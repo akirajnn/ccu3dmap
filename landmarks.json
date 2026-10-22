@@ -1,0 +1,98 @@
+[
+  {
+    "id": "gate",
+    "name": "校門",
+    "description": "校園旅程的起點。此為示意介紹，模型中的實際對應位置尚待管理者確認。",
+    "position": [
+      7.7208,
+      6,
+      38.0148
+    ],
+    "category": "校園入口",
+    "provisional": false
+  },
+  {
+    "id": "administration",
+    "name": "中正大樓",
+    "description": "認識校園行政與公共服務的導覽地標，實際建築位置待校正。",
+    "position": [
+      24.9432,
+      0.4694,
+      14.2419
+    ],
+    "category": "行政服務",
+    "provisional": true
+  },
+  {
+    "id": "library",
+    "name": "圖書館",
+    "description": "閱讀、探索與自主學習的校園地標，實際建築位置待校正。",
+    "position": [
+      0.7465,
+      9,
+      16.0125
+    ],
+    "category": "學習空間",
+    "provisional": true
+  },
+  {
+    "id": "fountain",
+    "name": "噴水池",
+    "description": "漫步校園的休憩地標，模型中的對應景觀尚待確認。",
+    "position": [
+      12.9791,
+      14.681,
+      9.5328
+    ],
+    "category": "自然景觀",
+    "provisional": true
+  },
+  {
+    "id": "lake",
+    "name": "寧靜湖",
+    "description": "感受校園水岸與綠意的導覽地標，實際湖面位置待校正。",
+    "position": [
+      13.353,
+      5,
+      27.5567
+    ],
+    "category": "自然景觀",
+    "provisional": true
+  },
+  {
+    "id": "stadium",
+    "name": "體育場",
+    "description": "運動與校園活動的導覽地標，實際場地位置待校正。",
+    "position": [
+      -10.2373,
+      0.4674,
+      -20.8932
+    ],
+    "category": "運動休閒",
+    "provisional": true
+  },
+  {
+    "id": "teaching",
+    "name": "教學大樓",
+    "description": "課堂與知識交流的導覽地標，實際建築位置待校正。",
+    "position": [
+      38.6034,
+      0.62,
+      -13.5386
+    ],
+    "category": "學習空間",
+    "provisional": true
+  },
+  {
+    "id": "dormitory",
+    "name": "學生宿舍",
+    "description": "學生生活與交流的導覽地標，實際建築位置待校正。",
+    "position": [
+      -9.772,
+      -5.0027,
+      13.2596
+    ],
+    "category": "生活空間",
+    "provisional": true
+  }
+]
