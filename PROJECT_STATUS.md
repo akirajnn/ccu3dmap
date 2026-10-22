@@ -1,5 +1,12 @@
 # 專案交接
 
+## 2026-10-23 GitHub 私人儲存庫
+
+- 已建立私人儲存庫 https://github.com/akirajnn/ccu3dmap，沿用 master 與既有提交。
+- 完整前端、套件鎖檔、GLB 與分析腳本已納入版本控制；依 .gitignore 排除依賴、產出及快取。未修改 DB 或應用程式設定。
+- JavaScript 語法、git diff --check 與 npm.cmd run build 通過；仍有大型 chunk 提醒，尚未完成瀏覽器實測。
+- 下一步：人工校正其餘地標，完成桌面與手機實測。
+
 ## 地標最大放大導覽
 
 - 點選地標清單、地標標籤或「前往這一站」時，以地標座標為相機目標，平滑移動至 OrbitControls.minDistance（目前允許的最大放大倍率）。維持原縮放限制與編輯模式行為。
