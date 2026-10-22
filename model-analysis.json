@@ -1,0 +1,73 @@
+{
+  "file": "island+city+3d+model.glb",
+  "bytes": 39437916,
+  "sha256": "eb1a77c222f29cc5e4c79b7b0e2305213bc73ff7023fb7d6c1dc41d6ac398ca8",
+  "generator": "Tripo",
+  "bounds": {
+    "min": [
+      -0.48910531401634216,
+      0,
+      -0.4896545857191086
+    ],
+    "max": [
+      0.48901376128196716,
+      0.22312164306640625,
+      0.48983772099018097
+    ],
+    "size": [
+      0.9781190752983093,
+      0.22312164306640625,
+      0.9794923067092896
+    ],
+    "center": [
+      -0.0000457763671875,
+      0.11156082153320312,
+      0.00009156763553619385
+    ]
+  },
+  "meshCount": 1,
+  "meshInstances": 1,
+  "nodes": [
+    {
+      "name": "tripo_node_09c42418-a12f-4348-81b1-780ebd250a19",
+      "mesh": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "tripo_mat_09c42418-a12f-4348-81b1-780ebd250a19",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "bufferView": 4
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 5
+    },
+    {
+      "mimeType": "image/jpeg",
+      "bufferView": 6
+    }
+  ],
+  "primitives": [
+    {
+      "vertices": 536654,
+      "indices": 2766414
+    }
+  ],
+  "interpretation": "Single merged Tripo mesh; no semantic building names. All campus landmarks are provisional. Runtime preserves Y-up orientation and material, centers bounds and uniformly scales longest side to 100. No original bytes modified."
+}
