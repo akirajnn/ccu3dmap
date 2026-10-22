@@ -1,5 +1,10 @@
 # 專案交接
 
+## 2026-10-23 README 聲明
+
+- README 末尾新增與政策島無關、類似之處純屬巧合的聲明；僅文件修改，未修改 DB 或設定。
+- 驗證：git diff --check 通過；無程式碼變更，不需重跑 build。
+
 ## 2026-10-23 GitHub 私人儲存庫
 
 - 已建立私人儲存庫 https://github.com/akirajnn/ccu3dmap，沿用 master 與既有提交。
