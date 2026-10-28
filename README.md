@@ -1,5 +1,7 @@
 # 天空之城 中正大學
 
+線上瀏覽：https://akirajnn.github.io/ccu3dmap/ 。推送 `master` 後 GitHub Actions 會自動建置並發布 GitHub Pages。
+
 頁首、載入畫面與 favicon 使用中正大學官方校徽：https://www.ccu.edu.tw/var/file/0/1000/img/1331/emblem.png 。來源為官方「關於中正」頁 https://www.ccu.edu.tw/p/404-1000-25575.php 。執行環境無法連線下載，因此目前以官方圖片網址載入，尚未保存為本機資產；圖示顯示需要瀏覽器可連線官方網站。
 
 Vite + Three.js + 原生 JavaScript，無後端或資料庫。使用根目錄原有的 `island+city+3d+model.glb`，不修改原始模型。

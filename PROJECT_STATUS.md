@@ -1,5 +1,13 @@
 # 專案交接
 
+## 2026-10-28 Internet 部署準備
+
+- 新增 `.github/workflows/deploy-pages.yml`：master 推送後以 Node.js 22 建置並部署 GitHub Pages；新增 `vite.config.js`，使用相對資產路徑以支援儲存庫子目錄。
+- 使用者明確同意改公開後，已將 akirajnn/ccu3dmap 設為 public 並啟用 workflow 型 GitHub Pages；原私人儲存庫的方案限制已解除。
+- 網址：https://akirajnn.github.io/ccu3dmap/ 。推送 master 會自動建置部署；首次部署狀態待確認。
+- 未修改 DB、套件依賴或應用功能；修改建置與 CI 設定。
+- 驗證：npm run build、node --check vite.config.js 與 git diff --check 通過；仍有既有的大型 chunk 提醒。尚未進行線上或瀏覽器實測。
+
 ## 2026-10-23 README 聲明
 
 - README 末尾新增與政策島無關、類似之處純屬巧合的聲明；僅文件修改，未修改 DB 或設定。
