@@ -4,9 +4,10 @@
 
 - 新增 `.github/workflows/deploy-pages.yml`：master 推送後以 Node.js 22 建置並部署 GitHub Pages；新增 `vite.config.js`，使用相對資產路徑以支援儲存庫子目錄。
 - 使用者明確同意改公開後，已將 akirajnn/ccu3dmap 設為 public 並啟用 workflow 型 GitHub Pages；原私人儲存庫的方案限制已解除。
-- 網址：https://akirajnn.github.io/ccu3dmap/ 。推送 master 會自動建置部署；首次部署狀態待確認。
+- 網址：https://akirajnn.github.io/ccu3dmap/ 。推送 master 會自動建置部署；首次 Actions run 40714593979 已成功，部署提交為 0eb8759。
 - 未修改 DB、套件依賴或應用功能；修改建置與 CI 設定。
-- 驗證：npm run build、node --check vite.config.js 與 git diff --check 通過；仍有既有的大型 chunk 提醒。尚未進行線上或瀏覽器實測。
+- 驗證：npm run build、node --check vite.config.js 與 git diff --check 通過；首頁、JS、CSS 與 GLB 線上 HTTPS 檢查均 HTTP 200，GLB Content-Length 39,437,916 bytes；已呼叫系統瀏覽器開啟網站，未完成 3D 視覺／互動實測。仍有既有的大型 chunk 提醒。
+- 下一步：桌面與手機實測、人工校正地標。Actions 目前成功，但有 action 內部 Node.js 20 淘汰提示，後續可更新 actions 主版本。
 
 ## 2026-10-23 README 聲明
 
